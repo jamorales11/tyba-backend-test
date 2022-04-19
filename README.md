@@ -7,9 +7,14 @@
 **[GET: Historial de transacciones del usuario logueado](#get-historial-de-transacciones-del-usuario-logueado)**<br>
 **[GET: Log out](#get-log-out)**<br>
 
+<br>
+
 ## API REST endpoints
 
 BaseUrl: localhost:3000
+
+
+<br>
 
 ### POST: Registro
 #### Request data
@@ -27,6 +32,8 @@ BaseUrl: localhost:3000
 }
 ```
 
+<br>
+
 ### POST: Login
 #### Request data
 - Path: /login
@@ -39,6 +46,7 @@ BaseUrl: localhost:3000
 }
 ```
 
+<br>
 
 ### POST: Lista de restaurantes cercanos para usuario logueado
 #### Request data
@@ -52,14 +60,14 @@ BaseUrl: localhost:3000
 }
 ```
 
-
+<br>
 
 ### GET: Historial de transacciones del usuario logueado
 #### Request data
 - Path: /getTransactionsHistory
 
 
-
+<br>
 
 ### GET: Log out
 #### Request data
