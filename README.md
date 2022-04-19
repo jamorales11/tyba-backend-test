@@ -21,6 +21,7 @@
 3. Realizar pruebas de los endpoints desde POSTMAN o similar
     - BaseUrl: http://localhost:3000
 
+*Se puede abrir la consola de Mongo Express en http://localhost:8080/ para revisar los datos en appDB.
 
 <br>
 
