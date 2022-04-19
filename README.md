@@ -9,12 +9,22 @@
 
 <br>
 
-## API REST endpoints
+## Comandos para probar Aplicación
+1. Desde el directorio raíz correr el container con Mongodb
+    - docker-compose -f compose.yaml up
 
-BaseUrl: localhost:3000
+2. Para correr la API-REST
+- npm install
+- pegar el .env recibido por correo en el directorio raíz
+- npm run dev
+
+3. Realizar pruebas de los endpoints desde POSTMAN o similar
+    - BaseUrl: http://localhost:3000
 
 
 <br>
+
+## API REST endpoints
 
 ### POST: Registro
 #### Request data
