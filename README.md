@@ -1,5 +1,12 @@
 # tyba-backend-test
 
+# Table of Contents
+**[POST: Registro](#post-registro)**<br>
+**[POST: Login](#post-login)**<br>
+**[POST: Lista de restaurantes cercanos para usuario logueado](#post-lista-de-restaurantes-cercanos-para-usuario-logueado)**<br>
+**[GET: Historial de transacciones del usuario logueado](#get-historial-de-transacciones-del-usuario-logueado)**<br>
+**[GET: Log out](#get-log-out)**<br>
+
 ## API REST endpoints
 
 BaseUrl: localhost:3000
