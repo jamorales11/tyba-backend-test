@@ -8,11 +8,13 @@ export const collections: { users?: mongoDB.Collection } = {}
 export async function connectToDatabase () {
     dotenv.config();
  
-    const client: mongoDB.MongoClient = new mongoDB.MongoClient("mongodb://admin:password@localhost:27017");
+    const client: mongoDB.MongoClient = new mongoDB.MongoClient(`mongodb://${process.env.DB_USER}:${process.env.DB_PASSWORD}@localhost:27017`);
             
     await client.connect();
+
+    const db : mongoDB.Db = new mongoDB.Db(client, "appDB");
         
-    const db: mongoDB.Db = client.db(process.env.DB_NAME);
+    db.createCollection("users");
    
     const usersCollection: mongoDB.Collection = db.collection("users");
  
