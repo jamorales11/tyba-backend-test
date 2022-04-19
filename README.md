@@ -9,6 +9,7 @@ BaseUrl: localhost:3000
 - Path: /registro
 - Body: 
   - Example POST request body (JSON)
+```JSON
 {
     "username": "julio",
     "password": "pass",
@@ -17,3 +18,4 @@ BaseUrl: localhost:3000
     "country": "Colombia",
     "transactions" : []
 }
+```
